@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>APOD-Astronomy Picture of the Day</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <h1>Astronomy Picture of the Day</h1>
+    <h2 class="corredor">JÁ OLHOU PARA AS ESTRELAS HOJE?</h2>
+    <form class="corredor">
+          <label for="datepiceker">Escolha o dia:
+            <input id="datepicker" type="date" min="" max="" data-min-date="16-06-1995"> 
+            <button type="button" class="botão" id="Botao">Pesquisar</button>
+          </label>
+    </form>
+      <section class="title-section">
+        <h2 id="title"></h2>
+        <p id="date"></p>
+        <small style="display: block;" id="copyright" ></small>
+      </section>
+     
+     <section id="media-section">
+       
+        
+    </section>
+
+    <div class="description-div">
+      <p id="description"></p>
+    </div>
+
+    <div id="speed-container" class="range-field">
+      <label for="speed-slider">Velocidade</label>
+      <input value="20" type="range" id="speed-slider" step="1" min="0" max="100" />
+  </div>
+
+    <div class="corredor">
+    <footer>
+    <p>
+      <a><strong>Todos os direitos reservados.</strong></a>
+      <br>
+      <span>Site desenvolvido para fins educacionais.</span>
+    </p>
+    </footer>
+    </div>
+
+    <script src="scrip.js"></script>
+    <script src="estrelas.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.2/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    
+</body>
+</html>

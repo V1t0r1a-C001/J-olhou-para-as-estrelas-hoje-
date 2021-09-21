@@ -1,0 +1,69 @@
+/*body{
+height: 3000px;
+background: linear-gradient(149deg,Royalblue 5%,LightCoral 25%,DarkOrchid 45%,SlateBlue 75%);
+}*/
+h1{
+    text-align: center;
+    color: aqua;
+    font-family: sans-serif;
+    font-size: 40px;
+}
+.corredor{
+    text-align: center;
+    position: static;
+    margin-top: 40px;
+    font-size: 40px;
+    right: 270px;
+    color:aqua;
+}
+.search{
+    margin: auto;
+    text-align: center;
+}
+.title-section{
+    padding: 1rem;
+    background-color: var(--primary-color);
+    color: aqua;
+    text-align: center;
+    position: static;
+}
+#datepicker{
+    box-sizing: border-box;
+    width: 9rem;
+    padding: 00.2rem;
+    border-radius: 0.5rem;
+}
+.image-div{
+    width: 80%;
+    margin: auto;
+}
+
+#image_of_the_day{
+    width: 100%;
+}
+.video-div{
+    width: 80%;
+    margin: auto;
+}
+#videoLink{
+    width: 100%;
+    height: 70vh
+    
+}
+.description-div{
+    width: 80%;
+    margin:0.1rem auto 1rem;
+    border: solid 1px white;
+    padding: 0.5rem;
+    border-radius: 00.5rem;
+    color: aqua;
+}
+#description{
+    line-height:1.82;
+}
+#speed-container {
+    position: fixed;
+    right: 2em;
+    bottom: 0;
+    color:aqua;
+}
